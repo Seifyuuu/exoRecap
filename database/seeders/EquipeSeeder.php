@@ -15,30 +15,30 @@ class EquipeSeeder extends Seeder
     public function run()
     {
         DB::table("equipes")->insert([
-            "nom"=>"Fc BAMBOULA",
-            "ville"=>"test",
-            "pays"=>"ballek",
+            "nom"=>"FC Barbe",
+            "ville"=>"Rabat",
+            "pays"=>"Maroc",
             "max"=>10,
             "continent_id"=>1,
         ]);
         DB::table("equipes")->insert([
-            "nom"=>"Fc BAMBOULA",
-            "ville"=>"test",
-            "pays"=>"ballek",
+            "nom"=>"FC Baguette",
+            "ville"=>"Paris",
+            "pays"=>"France",
             "max"=>10,
             "continent_id"=>2,
         ]);
         DB::table("equipes")->insert([
-            "nom"=>"Fc BAMBOULA",
-            "ville"=>"test",
-            "pays"=>"ballek",
+            "nom"=>"Fc Frites",
+            "ville"=>"Bruxelles",
+            "pays"=>"Belgique",
             "max"=>10,
             "continent_id"=>3,
         ]);
         DB::table("equipes")->insert([
-            "nom"=>"Fc BAMBOULA",
-            "ville"=>"test",
-            "pays"=>"ballek",
+            "nom"=>"FC Pizza",
+            "ville"=>"Rome",
+            "pays"=>"Italie",
             "max"=>10,
             "continent_id"=>4,
         ]);
